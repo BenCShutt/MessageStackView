@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		1B157C032CF9FD8700F1F224 /* UIButton+Hidden.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B157C022CF9FD8200F1F224 /* UIButton+Hidden.swift */; };
 		B80B92AB2527324400F97364 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80B92AA2527324400F97364 /* Vector3.swift */; };
 		B81727F024D6CC9F0062282B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81727EF24D6CC9F0062282B /* PostViewController.swift */; };
 		B81AEE4A24FFED230068CE23 /* Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81AEE4924FFED230068CE23 /* Corner.swift */; };
@@ -168,6 +169,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B157C022CF9FD8200F1F224 /* UIButton+Hidden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Hidden.swift"; sourceTree = "<group>"; };
 		B80B92AA2527324400F97364 /* Vector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
 		B81727EF24D6CC9F0062282B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		B81AEE4924FFED230068CE23 /* Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Corner.swift; sourceTree = "<group>"; };
@@ -336,6 +338,7 @@
 		B872BE8525A3873F0031D619 /* Hidden */ = {
 			isa = PBXGroup;
 			children = (
+				1B157C022CF9FD8200F1F224 /* UIButton+Hidden.swift */,
 				B872BE8625A3874C0031D619 /* UIImageView+Hidden.swift */,
 				B872BE9025A387570031D619 /* UILabel+Hidden.swift */,
 			);
@@ -921,6 +924,7 @@
 				OBJ_128 /* PostGestureManager.swift in Sources */,
 				OBJ_129 /* PostManager.swift in Sources */,
 				B87CC98B24CB02F8002B697C /* ConnectivityViewController.swift in Sources */,
+				1B157C032CF9FD8700F1F224 /* UIButton+Hidden.swift in Sources */,
 				B8E1CEEB2500DEA0002BFE77 /* UIView+ShadowLayer.swift in Sources */,
 				B81AEE4A24FFED230068CE23 /* Corner.swift in Sources */,
 				OBJ_130 /* PostManagerDelegate.swift in Sources */,
