@@ -125,6 +125,7 @@ open class MessageView: UIView {
         let button: UIButton = .defaultButton
         button.setTitle("PRIMARY", for: .normal)
         button.backgroundColor = .white
+        button.layer.borderColor = nil
         return button
     }()
     
