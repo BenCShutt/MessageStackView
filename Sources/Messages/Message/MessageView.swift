@@ -119,22 +119,20 @@ open class MessageView: UIView {
         stackView.distribution = .fillEqually
         return stackView
     }()
-    
+
     /// Filled `UIButton` on the left
     public private(set) lazy var primaryButton: UIButton = {
         let button: UIButton = .defaultButton
         button.setTitle("PRIMARY", for: .normal)
         button.backgroundColor = .white
-        button.layer.borderColor = nil
         return button
     }()
-    
+
     /// Bordered `UIButton` on the right
     public private(set) lazy var secondaryButton: UIButton = {
         let button: UIButton = .defaultButton
         button.setTitle("SECONDARY", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.layer.borderColor = UIColor.white.cgColor
         return button
     }()
 
@@ -303,6 +301,7 @@ private extension UIButton {
         button.titleLabel?.font = .systemFont(ofSize: 13, weight: .heavy)
         button.layer.updateCornerRadius(6)
         button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.white.cgColor
         return button
     }
 }
